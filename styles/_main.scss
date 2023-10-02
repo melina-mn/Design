@@ -22,8 +22,34 @@
     line-height: 34px; /* 154.545% */
     }
 }
-.right__img{
-    width: 585px;
-height: 690px;
-margin-left: 159px;
+@media screen and (max-width:768px) {
+    .container{
+        text-align: center;
+    }
+    .container__logo{
+    font-size: 24px;
+    }
+    .container__ul{
+        
+        font-size: 16px;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .left__title{
+        font-size: 72px;
+    }
+    .left__prgh{
+        font-size: 22px;
+    }
+    .right__img{
+        width: 617px;
+        height: 512px;
+    }
+}
+@media screen and (max-width: 320px) {
+    
 }
