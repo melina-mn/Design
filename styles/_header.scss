@@ -29,4 +29,8 @@
 a{
     text-decoration: none;
     color: #FFF;
+    &:hover{
+        color: pink;
+        transition: 0.4s;
+    }
 }
