@@ -44,6 +44,7 @@
     }
     .left__prgh{
         font-size: 22px;
+        width: 573.5px;
     }
     .right__img{
         width: 617px;
@@ -51,5 +52,29 @@
     }
 }
 @media screen and (max-width: 320px) {
+    .container{
+        text-align: center;
+    }
+    .home{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .container__logo{
+        font-size: 24px;
+    }
+    .left__title{
+        font-size: 36px;
+    }
+    .left__prgh{
+        width: 211px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .right__img{
+        width: 256px;
+        height: 284px;
+    }
     
 }
