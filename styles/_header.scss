@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+    &__ul{
+        display: flex;
+        list-style: none;
+    }
+    &__li{
+        margin-right: 30px;
+        color: #FFF;
+        font-family: 'Source Sans 3', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22.4px; /* 140% */
+    }
+    &__logo{
+        margin-right: 78px;
+        color: #FFF;
+        font-family: 'Actor', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px; /* 150% */
+        letter-spacing: -0.25px;
+    }
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
