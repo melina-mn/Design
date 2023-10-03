@@ -51,6 +51,7 @@ a:hover {
 @media only screen and (max-width: 769px) {
   .container__sec {
     visibility: visible;
+    font-style: normal;
   }
   .container__li {
     visibility: collapse;
@@ -84,13 +85,15 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   .container {
-    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .container__logo {
     font-size: 24px;
-  }
-  .container__ul {
-    font-size: 16px;
   }
   .home {
     display: -webkit-box;
@@ -107,19 +110,29 @@ a:hover {
   }
   .left__title {
     font-size: 72px;
+    display: block;
+    text-align: center;
   }
   .left__prgh {
     font-size: 22px;
-    width: 573.5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .right__img {
     width: 617px;
     height: 512px;
+    display: block;
   }
 }
 @media screen and (max-width: 320px) {
   .container {
-    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .home {
     display: -webkit-box;
@@ -139,15 +152,21 @@ a:hover {
   }
   .left__title {
     font-size: 36px;
+    display: block;
+    text-align: center;
   }
   .left__prgh {
     width: 211px;
+    height: 49px;
     font-size: 12px;
     line-height: 1.5;
   }
   .right__img {
     width: 256px;
     height: 284px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 body {
