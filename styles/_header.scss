@@ -38,11 +38,31 @@ a{
     }
 }
  @media only screen and (max-width:769px) {
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
     .container__sec{
         visibility: visible;
         font-style: normal;
+        display: flex;
+        flex-wrap: wrap;
     }
+    .container__logo{
+        font-size: 24px;
+
+        }
+    
     .container__li{
         visibility: collapse;
+    }
+ }
+ @media only screen and (max-width:320px) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .container__sec{
+        visibility: hidden;
+        display: flex;
     }
  }
