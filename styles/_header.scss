@@ -40,17 +40,18 @@ a{
  @media only screen and (max-width:769px) {
     .container{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 25%;
     }
     .container__sec{
         visibility: visible;
         font-style: normal;
         display: flex;
-        flex-wrap: wrap;
-    }
+        }
     .container__logo{
         font-size: 24px;
-
+    
         }
     
     .container__li{
