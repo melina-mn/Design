@@ -45,9 +45,7 @@
         
     }
     .right__img{
-        width: 617px;
-        height: 512px;
-        display: block;
+        display: flex;
     }
 }
 @media screen and (max-width: 320px) {
@@ -77,8 +75,6 @@
         line-height: 1.5;
     }
     .right__img{
-        width: 256px;
-        height: 284px;
         display: flex;
     }
     
